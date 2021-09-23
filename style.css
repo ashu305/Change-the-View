@@ -1,0 +1,44 @@
+:root{
+    --base: #ffee00;
+    --spacing: 10px;
+    --blur: 3px;
+}
+html{
+    background-image: url('luke-chesser-IGtutkXikuc-unsplash.jpg');
+}
+body, html{
+    
+    background-size: cover;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-family: 'helvetica neue', sans-serif;
+}
+
+.headder{
+    position: relative;
+    margin: 2rem;
+    top: 20px;
+}
+
+span{
+    color: var(--base);
+}
+.controls{
+    margin: 1rem ;
+
+}
+
+#base-color{
+    width: 100px;
+    height: 30px;
+    border-radius: 10%;
+    background: transparent;
+}
+
+img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
